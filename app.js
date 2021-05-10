@@ -10,6 +10,6 @@ app.use(express.static('./src/views'));
 app.set('views','./src/views');
 app.engine('html', ejs.renderFile);
 
-const server = app.listen(8081,function(){
+const server = app.listen(80,function(){
     console.log('8081 Server Open');
 })
