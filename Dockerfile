@@ -5,4 +5,4 @@
  RUN npm install
  COPY . .
  CMD [ "npm", "start" ]
- EXPOSE 8082
+ EXPOSE 8081
