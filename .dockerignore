@@ -1,10 +1,2 @@
- FROM node:12
- 
- WORKDIR /var/app
- 
- COPY package.json .
- RUN npm install
- COPY . .
- 
- EXPOSE 8082
- CMD [ "npm", "start" ]
+node_modules
+npm-debug.log
