@@ -1519,7 +1519,7 @@ a.navbar-brand:hover {
    Profile Page Two
    ========================================================================== */
 .profile-two{
-  background: #f4f4f4;	
+  background: #FEFEFE;	
   padding: 0px 0px 20px 0px;
 }
 .sidebar .list{
@@ -1530,13 +1530,11 @@ a.navbar-brand:hover {
  width: auto;
 }
 .sidebar .list a {
- color: #546e7a;
  position: relative;
  padding: 5px 10px;
 }
 .sidebar .user-info {
  position: relative;
- border-bottom: 1px solid #eee;
  text-align: center;
  padding-bottom: 15px;
  margin-bottom: 20px;
@@ -1547,14 +1545,11 @@ a.navbar-brand:hover {
 .sidebar .user-info .image img {
  width: 180px;
  vertical-align: bottom !important;
- border: 3px solid #fff;
- box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.2);
 }
 .sidebar .online-status.online {
- background: #00c292;
 }
 .sidebar .online-status {
- border: 4px solid #ffffff;
+
  border-radius: 100%;
  height: 15px;
  position: absolute;

@@ -83,7 +83,7 @@ html, body {
 /* Typography
 ---------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nanum Barun Gothic', sans-serif;
   color: #2C3E50;
   letter-spacing: 1px;
 }
@@ -352,7 +352,7 @@ body.greybg {
     margin: 0px 100px;
 }
 .section-title h1 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nanum Barun Gothic', sans-serif;
     font-size: 20px;
     color: #505050;
     text-align: center;
@@ -360,7 +360,7 @@ body.greybg {
     margin: 0 0 45px;
 }
 .section-title-bold h1 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nanum Barun Gothic', sans-serif;
     font-size: 20px;
 	font-weight: 600;
     color: #505050;
@@ -369,47 +369,37 @@ body.greybg {
 }
 
 .section-title-bold-home h1 {
-	font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-	font-weight: 600;
-    color: #505050;
-    text-align: left;
-    margin: 0px;
-}
-.section-title-bold-home h1 a{
-	font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-	font-weight: 600;
-    color: #505050;
+	font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size: 50px;
+	font-weight: 700;
+    color: #261C19;
     text-align: left;
     margin: 0px;
 }
 
 .section-title-bold-home h2 {
-	font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-	font-weight: 600;
-    color: #505050;
+	font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size: 50px;
+	font-weight: 700;
+    color: #261C19;
     text-align: left;
-    margin: -20px 0px 0px 0px;
+   
 }
 
-.section-title-bold-home h2 a{
-	font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-	font-weight: 600;
-    color: #505050;
+.section-title-bold-home h2 {
+	font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size: 50px;
+	font-weight: 700;
+    color: #261C19;
     text-align: left;
-    margin: -20px 0px 0px 0px;
 }
 
 .section-title-bold-home h3 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nanum Barun Gothic', sans-serif;
     font-size: 20px;
-	font-weight: 600;
-    color: #505050;
+	font-weight: 500;
+    color: #2F2725;
     text-align: left;
-    margin: 0px;
 }
 .section-title-pacifico h1 {
 	font-family: 'Abhaya Libre', serif;
@@ -426,19 +416,19 @@ body.greybg {
     margin: 0 0 45px;
 }
 .section-title-new h1 {
-	font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-	font-weight: 600;
-    color: #505050;
+	font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size: 30px;
+	font-weight: 700;
+    color: #261C19;
     text-align: center;
     text-transform: uppercase;
     margin: 30px 0 5px 0px;
 }
 .section-title-left h2 {
-	font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-	font-weight: 600;
-    color: #505050;
+	font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size: 30px;
+	font-weight: 700;
+    color: #261C19;
     text-align: left;
     margin: 30px 0 5px 0px;
 }
