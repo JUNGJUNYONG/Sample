@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "pm2 start app.js -i max -e err.log -o out.log"
   },
   "author": "",
   "license": "ISC",
