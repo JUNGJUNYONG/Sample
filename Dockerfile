@@ -2,7 +2,7 @@
  # 앱 디렉터리 생성
  WORKDIR /app
  # copy package.json
- COPY package*.json ./
+ COPY package.json .
  # 패키지 설치
  RUN npm install
  # pm2 설치
