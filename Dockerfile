@@ -9,4 +9,4 @@
  COPY . .
  # pm2-runtime으로 실행
  CMD [ "npm", "start" ]
- #EXPOSE 8082
+ EXPOSE 8082
