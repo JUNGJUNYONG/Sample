@@ -10,5 +10,5 @@
  # dockerfile ㅇㅡㄹ 실행하는 경로에서 소스 복사
  COPY . .
  # pm2-runtime으로 실행
- CMD [ "pm2-runtime", "start","app.js" ]
+ CMD [ "npm", "start" ]
  #EXPOSE 8082
