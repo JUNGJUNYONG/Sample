@@ -368,6 +368,10 @@ body.greybg {
     margin: 0 0 15px;
 }
 
+.section-title-bold-home{
+	margin-left : 3%;
+}
+
 .section-title-bold-home h1 {
 	font-family: 'Nanum Barun Gothic', sans-serif;
     font-size: 50px;
@@ -423,34 +427,4 @@ body.greybg {
     color: #261C19;
     text-align: left;
     margin: 30px 0 5px 0px;
-}
-
-@media only screen and (max-width: 768px){
-	
-	.section-title-bold-home h1 {
-		font-family: 'Nanum Barun Gothic', sans-serif;
-	    font-size: 25px;
-		font-weight: 700;
-	    color: #261C19;
-	    text-align: left;
-	    margin: 0px;
-	}
-
-	.section-title-bold-home h2 {
-		font-family: 'Nanum Barun Gothic', sans-serif;
-	    font-size: 25px;
-		font-weight: 700;
-	    color: #261C19;
-	    text-align: left;
-	   
-	}
-
-	.section-title-bold-home h3 {
-		font-family: 'Nanum Barun Gothic', sans-serif;
-	    font-size: 17px;
-		font-weight: 500;
-	    color: #2F2725;
-	    text-align: left;
-	}
-	
 }

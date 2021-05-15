@@ -20,14 +20,71 @@
 @import url("https://fonts.googleapis.com/css?family=Abhaya+Libre");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 
+/* ==========================================================================
+   Header Styles
+   ========================================================================== */  
+.fluffs {
+  background: linear-gradient(
+      rgba(34,34,34,0.7), 
+      rgba(34,34,34,0.7)
+    ), url('../img/bg/1.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: #fff;
+  height: 75vh;
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+	
+}  	
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 56px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+h4 { 
+  font-family: 'Nanum Barun Gothic', serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.top-cart{
+  font-family: 'Nanum Barun Gothic', serif !important;
+  font-size: 18px;
+} 
+
+@media only screen and (max-width: 768px){
+	h1 {
+	  font-size: 40px;
+	}
+	h4 {
+	  font-size: 18px;
+	}	
+	.top-cart {
+	  font-size: 16px;
+	}	
+}
+
 /* ------------------------------------------------------------------- */
 /* Demo Section
 ---------------------------------------------------------------------- */
+
 .demo{
   background: #FEFEFE;
   padding: 50px 0px 50px 0px;  
 }
-
 .demo-box {
     position: relative;
     text-align: center;
@@ -43,6 +100,7 @@
 	height : 23px;
 	background-color : #fefefe;
 }
+
 
 .demo-box img {
     width : 100%;
@@ -76,6 +134,7 @@
    transition:all .3s linear;
 }
 
+
 .demo-box:hover .explain1{
 	 opacity:1;
 }
@@ -84,41 +143,12 @@
 	 opacity:1;
 }
 
-.demo-box .small img {
-    width: 100%;
-    height: 230px;
-    background-color: #fff;
-    -webkit-transition: all 400ms ease-in-out;
-    -moz-transition: all 400ms ease-in-out;
-    -o-transition: all 400ms ease-in-out;
-    transition: all 400ms ease-in-out;
-}
-
-.demo-box .small-two img {
-    width: 100%;
-    height: 260px;
-    background-color: #fff;
-    -webkit-transition: all 400ms ease-in-out;
-    -moz-transition: all 400ms ease-in-out;
-    -o-transition: all 400ms ease-in-out;
-    transition: all 400ms ease-in-out;
-}
-
-.demo-box h4 {
-    color: #505050;
-    font-weight: 500;
-    margin-top: 20px;
-    font-size: 18px;
-}
-
 .separator_wrapper {
     margin-bottom: 30px;
 }
 
+
 @media only screen and (max-width: 768px){
-	
-	
-	
 	.demo .section-title-bold {
 	  font-size: 17px !important;
 	}
@@ -192,10 +222,4 @@ footer {
   border: none;
   text-indent: 100%;
   cursor: pointer;
-}
-
-@media only screen and (max-width: 768px){
-	.copyRightText{
-	  font-size: 17px;
-	}
 }
