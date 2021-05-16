@@ -117,7 +117,7 @@ h4 {
    opacity:0;
    font-family: 'Nanum Barun Gothic', sans-serif;
    font-size: 18px;
-   font-weight: 500;
+   font-weight: bold;
    color: #2F2725;
    transition:all .3s linear;
 }
@@ -129,7 +129,7 @@ h4 {
    opacity:0;
    font-family: 'Nanum Barun Gothic', sans-serif;
    font-size: 16px;
-   font-weight: 500;
+   font-weight: bold;
    color: #2F2725;
    transition:all .3s linear;
 }
