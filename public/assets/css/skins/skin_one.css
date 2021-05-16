@@ -396,6 +396,7 @@ body.greybg {
 	font-weight: 500;
     color: #2F2725;
     text-align: left;
+    letter-spacing: -0.5px;
 }
 .section-title-pacifico h1 {
 	font-family: 'Abhaya Libre', serif;
