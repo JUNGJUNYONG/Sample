@@ -92,6 +92,41 @@ h4 {
  	 cursor:pointer;
 }
 
+.left-nav{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	 margin-left : 15%;
+	 text-align: left;
+	 color: #261C19;
+}
+
+.left-nav .author{
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.left-nav .author #kor_name{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 18px;
+}
+
+.left-nav .author #eng_name{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-size: 16px;
+}
+
+.left-nav .kor_description{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+
+.left-nav .eng_description{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+
 .main-box {
     margin-left : 15px;
     margin-right : 15px;
@@ -153,6 +188,9 @@ h4 {
     margin-bottom: 30px;
 }
 
+.separator_wrapper2 {
+    margin-bottom: 50px;
+}
 
 @media only screen and (max-width: 768px){
 	.demo .section-title-bold {

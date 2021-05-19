@@ -852,11 +852,7 @@ a.navbar-brand:hover {
 .sidebar{
  padding: 35px 15px !important;
  margin: 0px !important;
- overflow: hidden; 
-}
-.sidebar .artist{
-margin-left : 3%;
-text-align : left;	
+ overflow: hidden;
 }
 .sidebar .artist h2{
 	font-weight: bold;
