@@ -854,10 +854,21 @@ a.navbar-brand:hover {
  margin: 0px !important;
  overflow: hidden; 
 }
+.sidebar .artist{
+margin-left : 3%;
+text-align : left;	
+}
+.sidebar .artist h2{
+	font-weight: bold;
+}
+.sidebar pre{
+ text-align : left;
+}
 .sidebar ul{
  list-style: none;
  padding: 0px !important;
  margin: 0px !important;
+ text-align: left;
 }
 .sidebar ul li{
  margin: 10px 0px !important;

@@ -80,7 +80,6 @@ h4 {
 /* ------------------------------------------------------------------- */
 /* Demo Section
 ---------------------------------------------------------------------- */
-
 .demo{
   background: #FEFEFE;
   padding: 25px 0px 50px 0px;  
@@ -90,11 +89,19 @@ h4 {
     text-align: center;
   	-webkit-transition: all 0.4s ease-in;
  	 transition: all 0.4s ease-in;
+ 	 cursor:pointer;
+}
+
+.main-box {
+    margin-left : 15px;
+    margin-right : 15px;
 }
 
 .demo-box:hover .image-box img{
 	opacity : 0.2;
 }
+
+
 
 .middle-line{
 	height : 23px;
@@ -105,7 +112,6 @@ h4 {
 .demo-box img {
     width : 100%;
  	height:inherit;
-    cursor:pointer;
     transition:all .3s linear;
 }
 
