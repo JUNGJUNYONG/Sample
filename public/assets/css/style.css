@@ -84,6 +84,11 @@ h4 {
   background: #FEFEFE;
   padding: 25px 0px 50px 0px;  
 }
+
+.col-lg-3{
+	height : 100%;
+}
+
 .demo-box {
     position: relative;
     text-align: center;
@@ -97,6 +102,8 @@ h4 {
 	 margin-left : 15%;
 	 text-align: justify;
 	 color: #261C19;
+	 position : relative;
+	 height : 100%;
 }
 
 .left-nav .author{
@@ -117,14 +124,25 @@ h4 {
 .left-nav .kor_description{
 	font-family: 'Nanum Barun Gothic', sans-serif;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 13px;
 	margin-bottom: 50px;
 }
 
 .left-nav .eng_description{
 	font-family: 'Nanum Barun Gothic', sans-serif;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 13px;
+	margin-bottom: 50px;
+}
+
+.left-nav .contact{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+.left-nav .contact #contact_title{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
 }
 
 .main-box {
