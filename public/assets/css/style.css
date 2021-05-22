@@ -85,8 +85,6 @@ h4 {
   padding: 25px 0px 50px 0px;  
 }
 .demo-box {
-	height : 100%;
-	width : 100%;
     position: relative;
     text-align: center;
   	-webkit-transition: all 0.4s ease-in;
