@@ -369,7 +369,7 @@ body.greybg {
 }
 
 .section-title-bold-home{
-	margin-left : 3%;
+	margin-left : 25px;
 }
 
 .section-title-bold-home h1 {
@@ -387,7 +387,6 @@ body.greybg {
 	font-weight: 700;
     color: #261C19;
     text-align: left;
-   
 }
 
 .section-title-bold-home h3 {
