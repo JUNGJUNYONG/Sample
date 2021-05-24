@@ -84,6 +84,33 @@ h4 {
   background: #FEFEFE;
   padding: 25px 0px 50px 0px;  
 }
+
+.close{
+	font-size: 30px;
+	position : relative;
+	z-index: 9999;
+}
+
+.carousel-control { background-image: none !important; }
+
+.carousel-control.right { 
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+.carousel-control.left { 
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+
+
 .demo-box {
     position: relative;
     text-align: center;
@@ -92,10 +119,23 @@ h4 {
  	 cursor:pointer;
 }
 
+#main_title{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#sub_title{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+
 .left-nav{
 	font-family: 'Nanum Barun Gothic', sans-serif;
 	 margin-left : 10%;
 	 text-align: justify;
+	 word-break: break-all;
 	 color: #261C19;
 	 position : relative;
 	 height : 100%;
