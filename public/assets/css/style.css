@@ -80,6 +80,8 @@ h4 {
 /* ------------------------------------------------------------------- */
 /* Demo Section
 ---------------------------------------------------------------------- */
+
+
 .demo{
   background: #FEFEFE;
   padding: 25px 0px 50px 0px;  
@@ -118,7 +120,7 @@ h4 {
  	 transition: all 0.4s ease-in;
  	 cursor:pointer;
  	 width:100%;
- 	 height: 100%;
+ 	 height: 450px;
 }
 
 #main_title{
@@ -188,11 +190,6 @@ h4 {
     margin-right : 15px;
 }
 
-.image-box {
-   width : 100%;
-   height: 100%;
-}
-
 .demo-box:hover .image-box img{
 	opacity : 0.2;
 }
@@ -200,15 +197,16 @@ h4 {
 
 
 .middle-line{
-	height : 23px;
+	height : 17px;
 	background-color : #fefefe;
 }
 
 
 .demo-box img {
     width : 100%;
-    height : 100%;
- 	height:inherit;
+    height : 450px;
+    overflow: hidden;
+    object-fit: cover;
     transition:all .3s linear;
 }
 
@@ -252,6 +250,11 @@ h4 {
 
 .separator_wrapper2 {
     margin-bottom: 50px;
+}
+
+img{
+	width: 100%;
+	height: 100%;
 }
 
 @media only screen and (max-width: 768px){
