@@ -120,6 +120,7 @@ h4 {
  	 cursor:pointer;
  	 width:100%;
  	 height: auto;
+  max-height: 450px;
 }
 
 #main_title{
@@ -218,6 +219,7 @@ h4 {
 .demo-box img {
     width : 100%;
     height : auto;
+    max-height: 450px;
     overflow: hidden;
     object-fit: cover;
     transition:all .3s linear;
