@@ -83,6 +83,39 @@ h4 {
 	}	
 }
 
+@media only screen and (max-width: 768px){
+	h1 {
+	  font-size: 20px;
+	}
+	h2 {
+	  font-size: 20px;
+	}
+	h3{
+	  font-size: 12px;
+	}
+	h4 {
+	  font-size: 18px;
+	}	
+	.top-cart {
+	  font-size: 16px;
+	}	
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	h1 {
+	  font-size: 20px;
+	}
+	h2 {
+	  font-size: 20px;
+	}
+	h3{
+	  font-size: 12px;
+	}
+	h4 {
+	  font-size: 18px;
+	}	
+}
+
 /* ------------------------------------------------------------------- */
 /* Demo Section
 ---------------------------------------------------------------------- */
@@ -263,22 +296,7 @@ img{
 	height: 100%;
 }
 
-@media (max-width: 768px){
 
-	.demo .section-title-bold {
-	  font-size: 17px !important;
-	}
-	.demo .section-title-bold h3{
-	  font-size: 13px !important;
-	}
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-	.section-title-bold-home{
-		font-size: 13px !important;
-	}
-	
-}
 
 /* ------------------------------------------------------------------- */
 /* Footer Section
