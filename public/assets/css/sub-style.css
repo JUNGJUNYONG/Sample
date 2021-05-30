@@ -119,7 +119,7 @@ h4 {
  	 transition: all 0.4s ease-in;
  	 cursor:pointer;
  	 width:100%;
- 	 height: 450px;
+ 	 height: auto;
 }
 
 #main_title{
@@ -217,7 +217,7 @@ h4 {
 
 .demo-box img {
     width : 100%;
-    height : 450px;
+    height : auto;
     overflow: hidden;
     object-fit: cover;
     transition:all .3s linear;
