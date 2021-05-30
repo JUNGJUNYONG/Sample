@@ -84,10 +84,9 @@ h4 {
 		width : 33.333%;
 	}
 	
-	.col-lg-9 .main-box{
-		position : absolute;
-		float: right;
+	.col-lg-9 {
 		width : 50%;
+		margin-right: 10px;
 	}
 	
 }
