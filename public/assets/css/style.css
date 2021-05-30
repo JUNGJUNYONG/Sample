@@ -83,24 +83,6 @@ h4 {
 	}	
 }
 
-@media only screen and (max-width: 768px){
-	h1 {
-	  font-size: 20px;
-	}
-	h2 {
-	  font-size: 20px;
-	}
-	h3{
-	  font-size: 12px;
-	}
-	h4 {
-	  font-size: 18px;
-	}	
-	.top-cart {
-	  font-size: 16px;
-	}	
-}
-
 @media (min-width: 320px) and (max-width: 480px) {
 	h1 {
 	  font-size: 20px;
@@ -166,6 +148,8 @@ h4 {
 	font-family: 'Nanum Barun Gothic', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
+	text-align: justify;
+	word-break: break-all;
 }
 
 #sub_title{
