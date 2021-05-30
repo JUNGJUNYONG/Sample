@@ -74,36 +74,36 @@ h4 {
 
 
 @media only screen and (max-width: 768px){
-	h1 {
-	  font-size: 20px;
+	.demo{
+	  background: #FEFEFE;
+	  padding: 25px 0px 25px 0px;  
 	}
-	h2 {
-	  font-size: 20px;
+	
+	.col-lg-9{
+	 padding-right: 0px;
+	 padding-left: 15px;
 	}
-	h3{
-	  font-size: 12px;
+	
+	.col-lg-6{
+	 padding-left: 15px;
 	}
-	h4 {
-	  font-size: 18px;
-	}	
-	.top-cart {
-	  font-size: 16px;
-	}	
-}
+	
+	
+	.title_h1 {
+	  font-size: 40px;
+	}
+	
+	.title_h2 {
+	  margin-top:"-25px";
+	  font-size: 40px;
+	}
+	
+	.title_h3 {
+	  font-size: 15px;
+	}
+	
 
-@media (min-width: 320px) and (max-width: 480px) {
-	h1 {
-	  font-size: 20px;
-	}
-	h2 {
-	  font-size: 20px;
-	}
-	h3{
-	  font-size: 12px;
-	}
-	h4 {
-	  font-size: 18px;
-	}	
+	
 }
 
 /* ------------------------------------------------------------------- */
@@ -185,36 +185,47 @@ h4 {
 
 .left-nav .author #kor_name{
 	font-family: 'Nanum Barun Gothic', sans-serif;
- 	font-size: 18px;
+ 	font-size: 16px;
 }
 
 .left-nav .author #eng_name{
 	font-family: 'Nanum Barun Gothic', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .left-nav .kor_description{
 	font-family: 'Nanum Barun Gothic', sans-serif;
 	font-weight: 500;
-	font-size: 11px;
+	font-size: 9px;
 	margin-bottom: 50px;
+}
+
+.left-nav .kor_description p{
+	font-size: 12px;
 }
 
 .left-nav .eng_description{
 	font-family: 'Nanum Barun Gothic', sans-serif;
 	font-weight: 500;
-	font-size: 11px;
 	margin-bottom: 50px;
+}
+
+.left-nav .eng_description p{
+	font-size: 12px;
 }
 
 .left-nav .contact{
 	font-family: 'Nanum Barun Gothic', sans-serif;
 }
 
+.left-nav .contact p{
+	font-size: 12px;
+}
+
 .left-nav .contact #contact_title{
 	font-family: 'Nanum Barun Gothic', sans-serif;
 	font-weight: 700;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 .main-box {
