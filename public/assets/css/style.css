@@ -258,6 +258,9 @@ img{
 }
 
 @media (max-width: 768px){
+	
+	
+	
 	.demo .section-title-bold {
 	  font-size: 17px !important;
 	}
@@ -267,13 +270,11 @@ img{
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-	.demo .section-title-bold {
-	  font-size: 17px !important;
+	.section-title-bold-home{
+		font-size: 13px !important;
 	}
-	.demo .section-title-bold h3{
-	  font-size: 13px !important;
+	
 }
-	}
 
 /* ------------------------------------------------------------------- */
 /* Footer Section
