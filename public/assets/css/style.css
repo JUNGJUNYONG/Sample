@@ -141,6 +141,9 @@ h4 {
 }
 
 
+.box-left {
+  margin-right: 1.5%;
+}
 
 .demo-box {
     position: relative;
@@ -148,7 +151,7 @@ h4 {
   	-webkit-transition: all 0.4s ease-in;
  	 transition: all 0.4s ease-in;
  	 cursor:pointer;
- 	 width: 45%;
+ 	 width: 48%;
  	 height: 45%;
     display: inline-block;
 }
@@ -240,7 +243,7 @@ h4 {
 
 
 .middle-line{
-	height : 17px;
+	height : 1vh;
 	background-color : #fefefe;
 }
 
@@ -335,7 +338,6 @@ footer {
   font-weight: 300;
 }
   
-}
 .footerWhite .copyRight .socialLink {
     text-align: right;
     margin: 0;
