@@ -66,16 +66,16 @@ h4 {
 } 
 
 @media only screen and (max-width: 768px){
-	.demo .section-title-bold h1 .title_h1 {
-	  font-size: 17px !important;
+	.title_h1 {
+	  font-size: 15px;
 	}
 	
-	.demo .section-title-bold h2 .title_h2 {
-	  font-size: 17px !important;
+	.title_h2 {
+	  font-size: 15px;
 	}
 	
-	.demo .section-title-bold h3 .title_h3 {
-	  font-size: 13px !important;
+	.title_h3 {
+	  font-size: 10px;
 	}
 }
 
