@@ -1,0 +1,345 @@
+/* ==========================================================================
+   Fluffs - Ultimate Bootstrap Social Network UI Kit
+   ========================================================================== */
+/*
+* Author Name: TheMashaBrand
+* Author URI: http://themeforest.net/user/themashabrand
+* Website: http://www.themashabrand.com
+  
+/* ------------------------------------------------------------------- */
+/* Import Section
+---------------------------------------------------------------------- */
+@import url("base.css");				/* Default Reset, Typography, Forms, etc. */
+@import url("bootstrap.min.css");			/* Bootstrap 3.3.7 */
+@import url("fontawesome-all.min.css");		/* Font-awesome 5.0.10 */
+@import url("skins/skin_one.css");				/* Color of common Elements */
+@import url("animate.min.css");		/* Scrolling Animations */
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Abhaya+Libre");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+/* ==========================================================================
+   Header Styles
+   ========================================================================== */  
+.fluffs {
+  background: linear-gradient(
+      rgba(34,34,34,0.7), 
+      rgba(34,34,34,0.7)
+    ), url('../img/bg/1.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: #fff;
+  height: 75vh;
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+	
+}  	
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 56px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+h4 { 
+  font-family: 'Nanum Barun Gothic', serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.top-cart{
+  font-family: 'Nanum Barun Gothic', serif !important;
+  font-size: 18px;
+} 
+
+@media only screen and (max-width: 768px){
+	.demo .section-title-bold .title_h1 {
+	  font-size: 17px !important;
+	}
+	
+	.demo .section-title-bold .title_h2 {
+	  font-size: 17px !important;
+	}
+	
+	.demo .section-title-bold .title_h3 {
+	  font-size: 13px !important;
+	}
+}
+
+/* ------------------------------------------------------------------- */
+/* Demo Section
+---------------------------------------------------------------------- */
+
+
+.demo{
+  background: #FEFEFE;
+  padding: 25px 0px 50px 0px;  
+}
+
+.close{
+	font-size: 30px;
+	position : relative;
+	z-index: 9999;
+}
+
+.carousel-control { background-image: none !important; }
+
+.carousel-control.right { 
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+.carousel-control.left { 
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+
+
+.demo-box {
+    position: relative;
+    text-align: center;
+  	-webkit-transition: all 0.4s ease-in;
+ 	 transition: all 0.4s ease-in;
+ 	 cursor:pointer;
+ 	 width:100%;
+ 	 height: 450px;
+}
+
+#main_title{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: justify;
+	word-break: break-all;
+}
+
+#sub_title{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.left-nav{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	 margin-left : 10%;
+	 text-align: justify;
+	 word-break: break-all;
+	 color: #261C19;
+	 position : relative;
+	 height : 100%;
+	 margin-right : 15px;
+}
+
+.left-nav .author{
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.left-nav .author #kor_name{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+ 	font-size: 16px;
+}
+
+.left-nav .author #eng_name{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-size: 14px;
+}
+
+.left-nav .kor_description{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-weight: 500;
+	font-size: 9px;
+	margin-bottom: 50px;
+}
+
+.left-nav .kor_description p{
+	font-size: 12px;
+}
+
+.left-nav .eng_description{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+
+.left-nav .eng_description p{
+	font-size: 12px;
+}
+
+.left-nav .contact{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+.left-nav .contact p{
+	font-size: 12px;
+}
+
+.left-nav .contact #contact_title{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+}
+
+.main-box {
+    margin-left : 15px;
+    margin-right : 15px;
+}
+
+.demo-box:hover .image-box img{
+	opacity : 0.2;
+}
+
+
+
+.middle-line{
+	height : 17px;
+	background-color : #fefefe;
+}
+
+
+.demo-box img {
+    width : 100%;
+    height : 450px;
+    overflow: hidden;
+    object-fit: cover;
+    transition:all .3s linear;
+}
+
+.demo-box .image-box .explain1{
+   position:absolute;
+   width : 100%;
+   min-width : auto;
+   top:50%;
+   opacity:0;
+   font-family: 'Nanum Barun Gothic', sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+   color: #2F2725;
+   transition:all .3s linear;
+}
+
+.demo-box .image-box .explain2{
+   position:absolute;
+   width : 100%;
+   top:57.5%;
+   opacity:0;
+   font-family: 'Nanum Barun Gothic', sans-serif;
+   font-size: 16px;
+   font-weight: bold;
+   color: #2F2725;
+   transition:all .3s linear;
+}
+
+
+.demo-box:hover .explain1{
+	 opacity:1;
+}
+
+.demo-box:hover .explain2{
+	 opacity:1;
+}
+
+.separator_wrapper {
+    margin-bottom: 30px;
+}
+
+.separator_wrapper2 {
+    margin-bottom: 50px;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* Footer Section
+---------------------------------------------------------------------- */
+.footerWhite {
+    background-color: #FEFEFE;
+}
+
+footer {
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 0;
+    position: relative;
+}
+footer {
+    display: block;
+    float: left;
+    width: 100%;   
+}
+
+
+.footerWhite .copyRightWrapper {
+  padding: 20px 0;
+}
+.copyRightText{
+  font-family: 'Nanum Barun Gothic', sans-serif;
+  color: #B9BABA;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 300;
+}
+  
+}
+.footerWhite .copyRight .socialLink {
+    text-align: right;
+    margin: 0;
+}
+.footerWhite ul li {
+    list-style-type: none;
+}
+.footerWhite .copyRight .socialLink li a {
+    color: #848484;
+    border-color: #e5e5e5;
+    font-size: 17px;
+    padding: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    display: block;
+    border: 1px solid rgba(255,255,255,0.25);
+    text-align: center;
+    line-height: 38px;
+}
+
+#scrollup {
+  background: url("../img/arrowup.png") no-repeat 0px 0px;
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 14px;
+  right: 3%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border: none;
+  text-indent: 100%;
+  cursor: pointer;
+}
