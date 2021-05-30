@@ -198,7 +198,6 @@ h4 {
 .left-nav .eng_description{
 	font-family: 'Nanum Barun Gothic', sans-serif;
 	font-weight: 500;
-	font-size: 9px;
 	margin-bottom: 50px;
 }
 
@@ -208,6 +207,10 @@ h4 {
 
 .left-nav .contact{
 	font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+.left-nav .contact p{
+	font-size: 12px;
 }
 
 .left-nav .contact #contact_title{
