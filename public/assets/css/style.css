@@ -176,25 +176,25 @@ h4 {
 
 .left-nav .author #kor_name{
 	font-family: 'Nanum Barun Gothic', sans-serif;
- 	font-size: 18px;
+ 	font-size: 16px;
 }
 
 .left-nav .author #eng_name{
 	font-family: 'Nanum Barun Gothic', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .left-nav .kor_description{
 	font-family: 'Nanum Barun Gothic', sans-serif;
 	font-weight: 500;
-	font-size: 11px;
+	font-size: 9px;
 	margin-bottom: 50px;
 }
 
 .left-nav .eng_description{
 	font-family: 'Nanum Barun Gothic', sans-serif;
 	font-weight: 500;
-	font-size: 11px;
+	font-size: 9px;
 	margin-bottom: 50px;
 }
 
