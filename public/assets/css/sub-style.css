@@ -168,6 +168,21 @@ h4 {
   .row .copyRightText{
   	font-size: 10px;
 	}
+	
+	.title_h1 {
+	  font-size: 45px;
+	}
+	
+	.title_h2 {
+	  font-size: 45px;
+	}
+	
+	.section-title-bold-home .right_logo{
+		position: absolute;
+		top : 40px;
+		right: 15px;
+		
+	}
 }
 
 /* ------------------------------------------------------------------- */
