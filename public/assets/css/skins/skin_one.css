@@ -430,9 +430,3 @@ body.greybg {
     text-align: left;
     margin: 30px 0 5px 0px;
 }
-
-@media only screen and (max-width: 768px){
-	.demo .section-title-bold-home{
-		height: 60px;
-	}
-}
