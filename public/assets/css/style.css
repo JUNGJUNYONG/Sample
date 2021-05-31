@@ -93,6 +93,7 @@ h4 {
 	}
 	
 	.title_h2 {
+	  padding-top : -20px;
 	  font-size: 45px;
 	}
 	
@@ -100,7 +101,6 @@ h4 {
 		position: absolute;
 		top : 40px;
 		right: 15px;
-		
 	}
 	
 	
