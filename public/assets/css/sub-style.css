@@ -230,6 +230,7 @@ h4 {
 	font-family: 'Nanum Barun Gothic', sans-serif;
 	font-weight: normal;
 	font-size: 12px;
+	text-transform : lowercase;
 }
 
 .left-nav{
