@@ -157,7 +157,11 @@ h4 {
 
 
 @media only screen and (max-width: 768px){
-
+	
+	.demo .container{
+		margin-top : 30px;
+	}
+	
   .padding {
     margin:0;
     padding: 0;
