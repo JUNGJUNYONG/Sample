@@ -233,6 +233,13 @@ h4 {
 	text-transform : lowercase;
 }
 
+#size_title{
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	text-transform : lowercase;
+}
+
 .left-nav{
 	font-family: 'Nanum Barun Gothic', sans-serif;
 	 margin-left : 10%;
