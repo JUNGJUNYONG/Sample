@@ -88,8 +88,8 @@ h4 {
 	 padding-left: 15px;
 	}
 	
-	.title_h3 {
-	  font-size: 15px;
+	.title_h1 {
+	  font-size: 30px;
 	}
 	
 	.row .demo-box .image-box .explain1{
@@ -291,6 +291,15 @@ h4 {
 
 .demo-box:hover .explain2{
 	 opacity:1;
+}
+
+.left_logo{
+	float: left;
+}
+
+.right_logo{
+	width : 30%;
+	float: right;
 }
 
 .separator_wrapper {

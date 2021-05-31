@@ -369,7 +369,9 @@ body.greybg {
 }
 
 .section-title-bold-home{
+	height : 120px;
 	margin-left : 35px;
+	margin-right : 35px;
 }
 
 .section-title-bold-home h1 {
