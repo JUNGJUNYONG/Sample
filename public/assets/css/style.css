@@ -89,11 +89,18 @@ h4 {
 	}
 	
 	.title_h1 {
-	  font-size: 40px;
+	  font-size: 45px;
 	}
 	
 	.title_h2 {
-	  font-size: 40px;
+	  font-size: 45px;
+	}
+	
+	.section-title-bold-home .right_logo{
+		position: absolute;
+		top : 40px;
+		right: 35px;
+		
 	}
 	
 	
