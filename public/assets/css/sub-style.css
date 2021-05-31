@@ -145,15 +145,6 @@ h4 {
    object-fit: cover;
    transition: all .3s linear;
  }
- 
- .title_h1 {
-	  font-size: 30px;
- }
- 
- .title_h2 {
-	  font-size: 30px;
- }
- 
  }
 
 #carousel-example-generic {
