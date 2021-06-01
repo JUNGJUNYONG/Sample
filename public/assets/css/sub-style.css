@@ -183,6 +183,10 @@ h4 {
 	  margin-bottom: 20px;
 	}
 	
+	.demo .section-title-bold-home{
+		margin-left: 15px;
+	}
+	
 	.section-title-bold-home .right_logo{
 		position: absolute;
 		top : 40px;
