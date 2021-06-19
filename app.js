@@ -10,6 +10,7 @@ app.use(express.static('./src/views'));
 app.set('views','./src/views');
 app.engine('html', ejs.renderFile);
 
-const server = app.listen(8082,function(){
+//port 8082
+const server = app.listen(port,function(){
     console.log(port,'open');
 })
