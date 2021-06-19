@@ -11,6 +11,6 @@ app.set('views','./src/views');
 app.engine('html', ejs.renderFile);
 
 //port 8082
-const server = app.listen(port,function(){
+const server = app.listen(8082,function(){
     console.log(port,'open');
 })
